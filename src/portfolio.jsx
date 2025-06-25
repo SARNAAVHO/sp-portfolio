@@ -85,7 +85,7 @@ const Portfolio = () => {
           <div className="mb-8">
             <div className="inline-block">
               <span className="text-4xl md:text-4xl font-mono font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
-                &lt;HI THERE/&gt;
+                &lt;WELCOME/&gt;
               </span>
             </div>
           </div>
