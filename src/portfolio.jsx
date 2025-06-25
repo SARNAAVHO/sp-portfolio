@@ -262,7 +262,7 @@ const Portfolio = () => {
 
             <div className="mt-6 pt-4 border-t border-blue-500/20">
               <a 
-                href="https://example.com/internship-certificate" 
+                href="https://drive.google.com/file/d/1dzi5J1gcDGjJDb1yR6y-ewrcvJX6LrZv/view?usp=drive_link" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 px-4 py-2 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25 text-sm"
