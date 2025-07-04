@@ -162,8 +162,9 @@ const Portfolio = () => {
               Final-year B.Tech Student in Computer Science & Engineering
             </p>
             <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-              Specializing in Artificial Intelligence & Machine Learning with expertise in cloud computing, 
-              developing innovative ML models and network optimization solutions.
+              Currently in my final year of Bachelor of Technology in Computer Science and Engineering (AI & Machine Learning), I
+              enjoy crafting dynamic web applications with React and NextJS. I am actively deepening my knowledge in machine learning
+              and cloud computing, always aiming for practical model development and smooth system integration.
             </p>
           </div>
           
