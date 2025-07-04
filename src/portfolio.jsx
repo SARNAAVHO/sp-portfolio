@@ -35,7 +35,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: 'Poly Market Analyzer',
-      period: 'Oct 24 - Present',
+      period: 'Oct 24 - Jan 25',
       description: 'Developed and evaluated multiple stock movement prediction models including a Multi-Stock Shared LSTM (F1: 0.76), Ticker-Aware LSTM with stock embeddings (Acc: 64%), and VAR baseline (F1: 0.65). Explored advanced architectures such as Transformer, CNN, and GA/GP-based rule models for interpretable forecasting.',
       tech: ['Python', 'TensorFlow', 'Scikit-Learn', 'Pandas', 'NumPy', 'Plotly', 'Streamlit'],
       githubUrl: 'https://github.com/SARNAAVHO/Poly-market-analyzer'
@@ -47,20 +47,31 @@ const Portfolio = () => {
       tech: ['Python', 'AWS', 'OpenStack', 'CloudSim', 'TensorFlow', 'Scikit-Learn', 'Pandas', 'Psutil', 'NumPy', 'Plotly'],
       githubUrl: 'https://github.com/username/cloud-network-optimization'
     },
-    // {
-    //   title: 'IDS for Hypervisor Networks',
-    //   period: 'April 25 - Present',
-    //   description: 'Currently developing a hypervisor network IDS using a novel hypergraph ensemble model, achieving 30% higher accuracy on datasets like CICIDS, NSL-KDD, UNSW, and ToN-IoT. Utilizing CloudSim for traffic simulation and Zeek/CICFlowMeter for real-time capture.',
-    //   tech: ['Python', 'CloudSim', 'Zeek', 'CICFlowmeter', 'TensorFlow', 'Scikit-Learn', 'PyTorch'],
-    //   githubUrl: 'https://github.com/username/hypervisor-ids'
-    // }
+    {
+      title: 'IDS for Hypervisor Networks',
+      period: 'April 25 - May 25',
+      description: 'Currently developing a hypervisor network IDS using a novel hypergraph ensemble model, achieving 30% higher accuracy on datasets like CICIDS, NSL-KDD, UNSW, and ToN-IoT. Utilizing CloudSim for traffic simulation and Zeek/CICFlowMeter for real-time capture.',
+      tech: ['Python', 'CloudSim', 'Zeek', 'CICFlowmeter', 'TensorFlow', 'Scikit-Learn', 'PyTorch'],
+      githubUrl: 'https://github.com/username/hypervisor-ids'
+    },
     {
       title: 'KeenEdge-AI',
-      period: 'June 25 - Present',
+      period: 'June 25 - July 25',
       description: 'Built an AI mock interview app using React, Next.js, and Gemini API for dynamic question generation and feedback. Enabled real-time response evaluation to simulate realistic interview scenarios.Integrated Clerk for secure user authentication and session handling, supporting multiple users and sessions. Ensured data privacy and smooth access control.Used Shadcn UI for a responsive, modern interface across devices. Leveraged Drizzle ORM with Neon for scalable PostgreSQL database operations. (In Progress)',
       tech: ['React', 'NextJS', 'Gemini API', 'Clerk', 'Shadcn', 'Drizzle ORM', 'Neon', 'PostgreSQL'],
       githubUrl: 'https://github.com/SARNAAVHO/KeenEdge-AI'
+    },
+
+    {
+      title: 'FreshMart - Inventory Management System',
+      period: 'June 25 - July 25',
+      description: 'Developed a full-stack grocery inventory and order management application using React, Flask, PostgreSQL (Neon), Clerk for authentication, and deployed via Netlify (frontend) and Render (backend). Implemented real-time product management, order creation, and revenue tracking with a modern, responsive UI. Secured user sessions with Clerk and ensured seamless CRUD operations via RESTful Flask APIs connected to a scalable Postgres DB.',
+      tech: ['React', 'Flask', 'Clerk', 'Neon', 'PostgreSQL', 'Render', 'Netlify'],
+      githubUrl: 'https://github.com/SARNAAVHO/FreshMart-GroceryStoreManagement',
+      liveURL: 'https://freshmart-grocery-store-management.netlify.app/'
     }
+
+
   ];
 
   const coursework = [
@@ -173,6 +184,7 @@ const Portfolio = () => {
           >
             Explore My Work
           </button>
+          
         </div>
       </section>
 
@@ -350,6 +362,18 @@ const Portfolio = () => {
                       <Github className="w-4 h-4 text-blue-400" />
                       <span className="text-sm text-blue-300">GitHub</span>
                     </a>
+
+                    {project.liveURL && (
+                      <a 
+                        href={project.liveURL} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-1 bg-slate-700 hover:bg-slate-600 px-3 py-2 rounded-full transition-all duration-300 transform hover:scale-105 border border-blue-500/30"
+                      >
+                        <span className="text-sm text-blue-300">Live Demo</span>
+                      </a>
+                    )}
+
                   </div>
                 </div>
                 <p className="text-gray-300 mb-6 leading-relaxed">{project.description}</p>
