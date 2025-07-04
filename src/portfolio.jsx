@@ -33,35 +33,7 @@ const Portfolio = () => {
   };
 
   const projects = [
-    {
-      title: 'Poly Market Analyzer',
-      period: 'Oct 24 - Jan 25',
-      description: 'Developed and evaluated multiple stock movement prediction models including a Multi-Stock Shared LSTM (F1: 0.76), Ticker-Aware LSTM with stock embeddings (Acc: 64%), and VAR baseline (F1: 0.65). Explored advanced architectures such as Transformer, CNN, and GA/GP-based rule models for interpretable forecasting.',
-      tech: ['Python', 'TensorFlow', 'Scikit-Learn', 'Pandas', 'NumPy', 'Plotly', 'Streamlit'],
-      githubUrl: 'https://github.com/SARNAAVHO/Poly-market-analyzer'
-    },
-    {
-      title: 'Cloud Network Optimization',
-      period: 'Feb 25 - Present',
-      description: 'Developed a system to predict optimal VPC placement for VMs based on performance metrics by collecting and processing CPU, RAM, and Disk data using Python and CloudSim. Currently analyzing VM performance across VPCs and developing a machine learning and reinforcement learning model for prediction.',
-      tech: ['Python', 'AWS', 'OpenStack', 'CloudSim', 'TensorFlow', 'Scikit-Learn', 'Pandas', 'Psutil', 'NumPy', 'Plotly'],
-      githubUrl: 'https://github.com/username/cloud-network-optimization'
-    },
-    {
-      title: 'IDS for Hypervisor Networks',
-      period: 'April 25 - May 25',
-      description: 'Currently developing a hypervisor network IDS using a novel hypergraph ensemble model, achieving 30% higher accuracy on datasets like CICIDS, NSL-KDD, UNSW, and ToN-IoT. Utilizing CloudSim for traffic simulation and Zeek/CICFlowMeter for real-time capture.',
-      tech: ['Python', 'CloudSim', 'Zeek', 'CICFlowmeter', 'TensorFlow', 'Scikit-Learn', 'PyTorch'],
-      githubUrl: 'https://github.com/username/hypervisor-ids'
-    },
-    {
-      title: 'KeenEdge-AI',
-      period: 'June 25 - July 25',
-      description: 'Built an AI mock interview app using React, Next.js, and Gemini API for dynamic question generation and feedback. Enabled real-time response evaluation to simulate realistic interview scenarios.Integrated Clerk for secure user authentication and session handling, supporting multiple users and sessions. Ensured data privacy and smooth access control.Used Shadcn UI for a responsive, modern interface across devices. Leveraged Drizzle ORM with Neon for scalable PostgreSQL database operations. (In Progress)',
-      tech: ['React', 'NextJS', 'Gemini API', 'Clerk', 'Shadcn', 'Drizzle ORM', 'Neon', 'PostgreSQL'],
-      githubUrl: 'https://github.com/SARNAAVHO/KeenEdge-AI'
-    },
-
+    
     {
       title: 'FreshMart - Inventory Management System',
       period: 'June 25 - July 25',
@@ -69,8 +41,39 @@ const Portfolio = () => {
       tech: ['React', 'Flask', 'Clerk', 'Neon', 'PostgreSQL', 'Render', 'Netlify'],
       githubUrl: 'https://github.com/SARNAAVHO/FreshMart-GroceryStoreManagement',
       liveURL: 'https://freshmart-grocery-store-management.netlify.app/'
-    }
+    },
 
+    {
+      title: 'KeenEdge-AI',
+      period: 'June 25 - July 25',
+      description: 'Built an AI mock interview app using React, Next.js, and Gemini API for dynamic question generation and feedback. Enabled real-time response evaluation to simulate realistic interview scenarios.Integrated Clerk for secure user authentication and session handling, supporting multiple users and sessions. Ensured data privacy and smooth access control.Used Shadcn UI for a responsive, modern interface across devices. Leveraged Drizzle ORM with Neon for scalable PostgreSQL database operations.',
+      tech: ['React', 'NextJS', 'Gemini API', 'Clerk', 'Shadcn', 'Drizzle ORM', 'Neon', 'PostgreSQL'],
+      githubUrl: 'https://github.com/SARNAAVHO/KeenEdge-AI'
+    },
+    
+    {
+      title: 'IDS for Hypervisor Networks',
+      period: 'April 25 - May 25',
+      description: 'Currently developing a hypervisor network IDS using a novel hypergraph ensemble model, achieving 30% higher accuracy on datasets like CICIDS, NSL-KDD, UNSW, and ToN-IoT. Utilizing CloudSim for traffic simulation and Zeek/CICFlowMeter for real-time capture.',
+      tech: ['Python', 'CloudSim', 'Zeek', 'CICFlowmeter', 'TensorFlow', 'Scikit-Learn', 'PyTorch'],
+      githubUrl: 'https://github.com/username/hypervisor-ids'
+    },
+    
+    {
+      title: 'Cloud Network Optimization',
+      period: 'Feb 25 - Present',
+      description: 'Developed a system to predict optimal VPC placement for VMs based on performance metrics by collecting and processing CPU, RAM, and Disk data using Python and CloudSim. Currently analyzing VM performance across VPCs and developing a machine learning and reinforcement learning model for prediction.',
+      tech: ['Python', 'AWS', 'OpenStack', 'CloudSim', 'TensorFlow', 'Scikit-Learn', 'Pandas', 'Psutil', 'NumPy', 'Plotly'],
+      githubUrl: 'https://github.com/username/cloud-network-optimization'
+    },
+
+    {
+      title: 'Poly Market Analyzer',
+      period: 'Oct 24 - Jan 25',
+      description: 'Developed and evaluated multiple stock movement prediction models including a Multi-Stock Shared LSTM (F1: 0.76), Ticker-Aware LSTM with stock embeddings (Acc: 64%), and VAR baseline (F1: 0.65). Explored advanced architectures such as Transformer, CNN, and GA/GP-based rule models for interpretable forecasting.',
+      tech: ['Python', 'TensorFlow', 'Scikit-Learn', 'Pandas', 'NumPy', 'Plotly', 'Streamlit'],
+      githubUrl: 'https://github.com/SARNAAVHO/Poly-market-analyzer'
+    },
 
   ];
 
@@ -154,7 +157,7 @@ const Portfolio = () => {
       <section id="home" className="min-h-screen flex items-center justify-center px-6">
         <div className="text-center max-w-4xl mx-auto">
           <div className="mb-8">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600 bg-clip-text text-transparent animate-pulse">
+            <h1 className="text-3xl md:text-5xl font-bold mt-10 mb-4 bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600 bg-clip-text text-transparent animate-pulse">
               Sarnaavho Pal
             </h1>
             <div className="h-1 w-32 bg-gradient-to-r from-blue-400 to-cyan-400 mx-auto mb-8 rounded-full"></div>
@@ -197,16 +200,11 @@ const Portfolio = () => {
           </h2>
           <div className="bg-slate-800/50 backdrop-blur-md rounded-2xl p-8 border border-blue-500/20 shadow-xl">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I am a dedicated final-year Bachelor of Technology student in Computer Science and Engineering, 
-              specializing in Artificial Intelligence & Machine Learning. My passion lies in developing cutting-edge 
-              machine learning models and exploring cloud computing solutions for real-world problems.
+              I am a dedicated final-year Bachelor of Technology student in Computer Science and Engineering, specializing in Artificial Intelligence & Machine Learning. I am passionate about building dynamic web applications using technologies like React, Next.js, and Flask, while actively expanding my knowledge in machine learning and cloud computing.
             </p>
             <br />
             <p className="text-lg text-gray-300 leading-relaxed">
-              Currently, I'm gaining hands-on experience through innovative projects including network performance 
-              optimization using Python, TensorFlow, and AWS. My expertise spans across machine learning, cloud 
-              computing, and frontend development, with a strong commitment to continuous learning through 
-              certifications and practical applications.
+              Currently, I am working on real-world projects such as performance optimization for cloud networks, and full-stack platforms with secure user authentication and scalable APIs. I enjoy combining intuitive frontend design with practical backend logic, and continuously seek to enhance my skills through hands-on development, certifications, and new challenges.
             </p>
           </div>
         </div>
