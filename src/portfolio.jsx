@@ -245,13 +245,13 @@ const Portfolio = () => {
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-gray-300 leading-relaxed">
-                  Worked under the mentorship of <strong className="text-blue-300">Dr. Ripon Patgiri</strong> to develop a prototype Large Language Model (LLM) using open-source frameworks.
+                  Worked under the mentorship of <strong className="text-blue-300">Dr. Ripon Patgiri</strong> to develop a prototype Retrieval-Augmented Generation (RAG) system using open-source frameworks.
                 </p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                 <p className="text-gray-300 leading-relaxed">
-                  Explored transformer-based architectures and fine-tuned models for domain-specific applications.
+                  Explored chat models, embedding models, and open-source LLM frameworks such as LangChain, LlamaIndex, and HuggingFace to build the RAG system.
                 </p>
               </div>
               <div className="flex items-start space-x-3">
