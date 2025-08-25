@@ -48,7 +48,16 @@ const Portfolio = () => {
       period: 'June 25 - July 25',
       description: 'Built an AI mock interview app using React, Next.js, and Gemini API for dynamic question generation and feedback. Enabled real-time response evaluation to simulate realistic interview scenarios.Integrated Clerk for secure user authentication and session handling, supporting multiple users and sessions. Ensured data privacy and smooth access control.Used Shadcn UI for a responsive, modern interface across devices. Leveraged Drizzle ORM with Neon for scalable PostgreSQL database operations.',
       tech: ['React', 'NextJS', 'Gemini API', 'Clerk', 'Shadcn', 'Drizzle ORM', 'Neon', 'PostgreSQL'],
-      githubUrl: 'https://github.com/SARNAAVHO/KeenEdge-AI'
+      githubUrl: 'https://github.com/SARNAAVHO/KeenEdge-AI',
+      liveURL: 'https://keenedge-ai.netlify.app/'
+    },
+
+    {
+      title: 'Lifecycle-Aware VM Taxonomy for Cloud Rightsizing',
+      period: 'August 25',
+      description: 'Designed a lifecycle-anchored taxonomy of cloud VMs using Gaussian Mixture Models on lightweight telemetry (~50K instances). Built predictive models (Random Forest, XGBoost) achieving >90% recall for short-lived VM detection. Proposed a decision framework for cloud rightsizing, improving cost efficiency, reliability, and sustainability.',
+      tech: ['Python', 'Scikit-Learn', 'XGBoost', 'Random Forest', 'Gaussian Mixture Models (GMM)', 'SMOTE', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
+      githubUrl: 'https://github.com/SARNAAVHO/Lifecycle-Aware-VM-Taxonomy-for-Cloud-Rightsizing'
     },
     
     {
